@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background-color: #1e1e1e;
+  color: #c0c0c0;
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.mynav {
+  position: fixed;
+  background-color: #1e1e1ed4;
+  width: 100%;
+  display: flex;
+  z-index:5;
+}
+.nav-items {
+  justify-content: space-between;
+}
+.mynav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+#hero article {
+	width: 100%;
+	text-align: center;
+}
+
+.jumbo-img {
+  color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/mic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 600px;
+  width: 100%;
+
+}
+.main-hr {
+  height: 2px;
+  width: 150px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.jumbo-text{
+  width: 70%;
+}
+
+.section-title {
+  margin: 40px;
+  font-size: 2em;
+  text-align: center;
+}
+.intro-text {
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.headshot {
+  height: 360px;
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.port-btns {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.port-btns .btn {
+    flex: 1 1 100%;
+    color: #c0c0c0;
+}
+.port-btns i {
+  padding-left: 5px;
+}
+
+
+.footer {
+  height: 120px;
+  text-align: center;
+  background-color: #1e1e1e;
+  border-top: 1px solid gray;
+  margin-top: 40px;
+}
+
+.website-by {
+  font-size: 0.7em;
+  color: gray;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.website-by a {
+  color: silver;
+  text-decoration: none;
+}
+  .icon-list {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+
+  }
+  .icon-list li {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  .icon-list a {
+      color: gray;
+      font-size: 2em;
+      transition: all 0.5s ease-in-out;
+    }
+
+  .icon-list a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+
+@media (min-width: 768px) {
+  .port-btns .btn {
+      flex: 1 1 50%;
+  }
+ }
+
+
+@media (min-width: 992px) {
+  .port-btns .btn {
+      flex: 1 1 auto;
+  }
+}
