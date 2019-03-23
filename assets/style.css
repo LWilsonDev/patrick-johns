@@ -67,7 +67,7 @@ ul {
 }
 
 .section-title {
-  margin: 40px;
+  margin: 40px auto;
   font-size: 2em;
   text-align: center;
 }
