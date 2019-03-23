@@ -63,7 +63,7 @@ ul {
 }
 
 .jumbo-text{
-  width: 70%;
+  max-width: 85%;
 }
 
 .section-title {
