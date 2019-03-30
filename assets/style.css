@@ -14,6 +14,16 @@ ul {
   text-decoration: none;
   list-style: none;
 }
+
+.logo {
+  border: 1px solid silver;
+  padding:2px 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  background-color: silver;
+}
 .mynav {
   position: fixed;
   background-color: #1e1e1ed4;
@@ -36,7 +46,7 @@ ul {
 	text-align: center;
 }
 
-.jumbo-img {
+.header-img {
   color: white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -44,15 +54,25 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('images/mic-darker.jpg');
+
 
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.jumbo-img {
+  background-image: url('images/mic-darker.jpg');
   height: 600px;
   width: 100%;
-
 }
+.producer-img {
+  background-image: url('images/mic-darker.jpg');
+  height: 300px;
+  width: 100%;
+}
+
+
+
 .main-hr {
   height: 4px;
   width: 150px;
@@ -104,6 +124,31 @@ ul {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+.port-item {
+  margin: 40px auto 10px auto;
+  background-color: gray;
+  color: black;
+  border-radius: 5px;
+  padding:20px 0px 10px 0px;
+  width: 330px;
+}
+
+.port-img {
+  height: 135px;
+  width: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.port-text {
+  max-width: 80%;
+  font-size: 0.8em;
+}
+
+
+.producer-text {
+  padding-top: 40px;
+}
+
 .port-btns {
   width: 100%;
   flex-wrap: wrap;
@@ -171,6 +216,9 @@ ul {
   .main-content {
     max-width: 90%;
   }
+  .port-content {
+    max-width: 90%;
+  }
  }
 
 
@@ -181,4 +229,10 @@ ul {
   .main-content {
     max-width: 75%;
   }
+  .port-content {
+    max-width: 75%;
+    min-height: 350px;
+  }
+  
+
 }
