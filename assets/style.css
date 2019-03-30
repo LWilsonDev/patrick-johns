@@ -54,11 +54,20 @@ ul {
 
 }
 .main-hr {
-  height: 2px;
+  height: 4px;
   width: 150px;
   background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+.col-hr {
+  height: 4px;
+  width: 100px;
+  background-color: #c0c0c0;
+  margin-top: 20px;
+  margin-bottom: 40px;
 
 }
 
@@ -67,7 +76,7 @@ ul {
 }
 
 .section-title {
-  margin: 40px auto;
+  margin: 40px auto 20px auto;
   font-size: 2em;
   text-align: center;
 }
@@ -90,7 +99,7 @@ ul {
 }
 
 .headshot {
-  height: 360px;
+  height: 300px;
   width: auto;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -159,11 +168,17 @@ ul {
   .subtitle {
     font-size: 1.7em;
   }
+  .main-content {
+    max-width: 90%;
+  }
  }
 
 
 @media (min-width: 992px) {
   .port-btns .btn {
       flex: 1 1 auto;
+  }
+  .main-content {
+    max-width: 75%;
   }
 }
