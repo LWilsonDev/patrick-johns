@@ -130,11 +130,11 @@ ul {
   color: black;
   border-radius: 5px;
   padding:20px 0px 10px 0px;
-  width: 330px;
+  max-width: 90%;
 }
 
 .port-img {
-  height: 135px;
+  height: 100px;
   width: auto;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -219,6 +219,12 @@ ul {
   .port-content {
     max-width: 90%;
   }
+  .port-item{
+    max-width: 330px;
+  }
+  .port-image {
+    height: 135px;
+  }
  }
 
 
@@ -233,6 +239,6 @@ ul {
     max-width: 75%;
     min-height: 350px;
   }
-  
+
 
 }
