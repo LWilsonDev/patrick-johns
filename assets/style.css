@@ -229,6 +229,38 @@ a.btn.disabled {
 }
 
 
+.message {
+  display: none; }
+
+.error-message {
+  display: none; }
+
+.success-text {
+  color: white;
+  font-size: 1em;
+  padding: 10px; }
+
+.display {
+  display: inline-block;
+  max-width: 80%;
+  background-color: #3da1b9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto; }
+
+.display-error {
+  display: inline-block;
+  max-width: 80%;
+  background-color: #E33761;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto; }
+
+.contact-form {
+  max-width: 90%;
+  margin: 40px auto 80px auto;
+}
+
 .footer {
   height: 120px;
   text-align: center;
@@ -289,6 +321,9 @@ a.btn.disabled {
   }
   .port-image {
     height: 135px;
+  }
+  .contact-form {
+    max-width: 70%;
   }
  }
 
