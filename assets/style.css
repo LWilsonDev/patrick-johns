@@ -68,9 +68,14 @@ ul {
   background-size: cover;
 
 }
+
+
+
+
 .jumbo-img {
   background-image: url('images/mic-darker.jpg');
   height: 600px;
+
 
 }
 .producer-img {
@@ -81,7 +86,7 @@ ul {
 .composer-img {
   background-image: url('images/piano.jpg');
   height: 300px;
-
+  background-position: bottom;
 }
 
 
@@ -259,6 +264,10 @@ iframe {
   width:80%;
   height:auto;
 }
+
+.sound {
+  margin-top: 40px;
+}
 .contact-form {
   max-width: 90%;
   margin: 40px auto 80px auto;
@@ -331,6 +340,15 @@ iframe {
   iframe {
     width:560px;
     height:315px;
+  }
+  .jumbo-img {
+    background-attachment: fixed;
+  }
+  .producer-img {
+    background-attachment: fixed;
+  }
+  .composer-img {
+    background-attachment: fixed;
   }
  }
 
