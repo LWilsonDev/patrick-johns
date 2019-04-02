@@ -80,15 +80,20 @@ ul {
 }
 .producer-img {
   background-image: url('images/mixer.jpg');
-  height: 300px;
+  height: 400px;
 
 }
 .composer-img {
   background-image: url('images/piano.jpg');
-  height: 300px;
+  height: 400px;
   background-position: bottom;
 }
 
+.performer-img {
+  background-image: url('images/crowd.jpg');
+  height: 400px;
+  background-position: bottom;
+  }
 
 
 .main-hr {
@@ -126,6 +131,8 @@ ul {
   -webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
+
+
 .Aligner {
   display: flex;
   align-items: center;
@@ -160,12 +167,20 @@ ul {
   display: block;
   margin: 0 auto 20px auto;
 }
+
+.band-img {
+  height: auto;
+  width: 100%;
+  margin: 20px auto;
+}
 .port-text {
   max-width: 80%;
   font-size: 0.8em;
 }
 
-
+.perf-text {
+  margin-top: 40px;
+}
 .producer-text {
   padding-top: 40px;
 }
@@ -185,6 +200,13 @@ ul {
   width: auto;
   margin: 5px auto;
   transition: all 0.5s ease-in-out;
+}
+
+.edu-logo {
+  height: 200px;
+  width: auto;
+  margin: 20px auto;
+
 }
 .arr-img:hover {
   opacity: 0.5;
@@ -208,12 +230,26 @@ ul {
 }
 .comp-list li {
   line-height: 2;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-size: 1em;
 }
 
 .comp-btn {
   margin: 40px auto;
   color: silver;
   border-color: silver;
+}
+
+.perf-img {
+  margin: 40px auto;
+  height: auto;
+  width: 90%;
+}
+
+.edu-img {
+  width: 80%;
+  height: auto;
 }
 
 .port-btns {
@@ -341,15 +377,22 @@ iframe {
     width:560px;
     height:315px;
   }
-  .jumbo-img {
+  .header-img {
     background-attachment: fixed;
   }
-  .producer-img {
-    background-attachment: fixed;
+  .perf-img {
+    width: 300px;
+    margin-top: 40px;
   }
-  .composer-img {
-    background-attachment: fixed;
+  .edu-img {
+    width: 60%;
+    height: auto;
+    margin: 40px auto;
   }
+  .edu-logo {
+    max-width: 90%;
+  }
+
  }
 
 
@@ -364,12 +407,12 @@ iframe {
     max-width: 75%;
     min-height: 350px;
   }
-  .producer-img {
-    height: 300px;
 
-  }
   .ptext{
     margin-top: 30px;
+  }
+  .perf-img {
+    width: 350px;
   }
 
 }
