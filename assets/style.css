@@ -145,6 +145,16 @@ a {
   max-width: 50%;
 }
 
+.card-col {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-width {
+  margin: 10px;
+}
+
 .headshot {
   height: 300px;
   width: auto;
