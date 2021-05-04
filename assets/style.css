@@ -81,7 +81,7 @@ a {
   height: 400px;
 }
 .composer-img {
-  background-image: url("images/piano.jpg");
+  background-image: url("images/composer.jpg");
   height: 400px;
   background-position: bottom;
 }
@@ -220,7 +220,7 @@ a {
 }
 
 .small-title {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -400,6 +400,9 @@ iframe {
 }
 
 @media (min-width: 992px) {
+  .small-title {
+    font-size: 1.5rem;
+  }
   .port-btns .btn {
     flex: 1 1 auto;
   }
