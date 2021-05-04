@@ -9,12 +9,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
-/* ul {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-} */
 
 .plain-ul {
   text-decoration: none;
@@ -344,6 +338,7 @@ iframe {
   list-style: none;
   display: inline-flex;
   margin-top: 20px;
+  padding-left: 0;
 }
 .icon-list li {
   padding-left: 10px;
