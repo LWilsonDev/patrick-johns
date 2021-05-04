@@ -398,6 +398,9 @@ iframe {
     max-width: 90%;
   }
 }
+.comp-ul {
+  line-height: 2;
+}
 
 @media (min-width: 992px) {
   .small-title {
